@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #333;
+}
+.contenido {
+    display: flex;
+    max-width: 5000px; /* Establece un ancho máximo para el contenido */
+    padding: 100px; /* Agrega un relleno alrededor del contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra sutil */
+    text-align: center; /* Alinea el texto al centro */
+}
+.contenido1 {
+    max-width: 5000px; /* Establece un ancho máximo para el contenido */
+    padding: 100px; /* Agrega un relleno alrededor del contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra sutil */
+    text-align: center; /* Alinea el texto al centro */
+}
+.contenido2 {
+    max-width: 5000px; /* Establece un ancho máximo para el contenido */
+    padding: 100px; /* Agrega un relleno alrededor del contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra sutil */
+    text-align: center; /* Alinea el texto al centro */
+}
+.imagenes {
+display: flex;
+flex-direction: column; /*pone las imagees en columnas*/
+
+}
+h1 {
+    color: #e0ba3a; 
+}
+
+h2 {
+    color: #0066db; 
+}
+
+h3 {
+    color:#0066db;
+}
+p {
+    color: #333; /* Gris oscuro, puedes cambiar este también si lo necesitas */
+}
+
+header {
+    background: #0066db;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    margin: 15px;
+    background: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0066db;
+    color: #fff;
+    clear: both;  /* Clear any floats */
+    position: relative;  /* Adjust based on your layout requirements */
+    bottom: 0;
+    width: 100%;
+}
+/* Estilo base del enlace */
+.enlace {
+    color: #ffffff; /* Color del texto normal */
+    text-decoration: none; /* Eliminar subrayado predeterminado */
+    position: relative; /* Añadir posición relativa para el pseudo-elemento */
+    font-size: 16px; /* Tamaño de fuente normal */
+    transition: font-size 0.5s ease; /* Transición más lenta para el tamaño de la fuente */
+  }
+  
+  /* Estilo del pseudo-elemento ::after */
+  .enlace::after {
+    content: ''; /* Añadir contenido al pseudo-elemento */
+    position: absolute; /* Posicionar de forma absoluta con respecto al elemento padre */
+    bottom: -2px; /* Colocar el pseudo-elemento debajo del texto */
+    left: 0; /* Alinear el pseudo-elemento a la izquierda */
+    width: 100%; /* Ajustar el ancho al 100% del ancho del enlace */
+    height: 4px; /* Altura del pseudo-elemento (línea de resaltado) */
+    background-color: transparent; /* Color del pseudo-elemento (línea de resaltado) inicialmente transparente */
+    transition: background-color 0.5s ease; /* Transición más lenta para el cambio de color */
+  }
+  
+  /* Estilo del enlace cuando se pasa el cursor sobre él */
+  .enlace:hover {
+    font-size: 20px; /* Aumentar el tamaño de fuente en hover */
+  }
+  
+  .enlace:hover::after {
+    background-color: #ff2f00; /* Cambiar el color del pseudo-elemento en hover */
+  }
+  
+  
